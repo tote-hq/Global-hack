@@ -1,0 +1,12 @@
+{
+  "name": "Global Hack Week",
+  "image": "mcr.microsoft.com/devcontainers/javascript-node:22",
+  "postCreateCommand": "npm install",
+  "forwardPorts": [3124],
+  "portsAttributes": {
+    "3124": {
+      "label": "ghw",
+      "onAutoForward": "notify"
+    }
+  }
+}
